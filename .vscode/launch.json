@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "java7",
+      "request": "launch",
+      "mainClass": "java7",
+      "projectName": "practice_ca2cfeb4"
+    },
+    {
+      "type": "java",
+      "name": "java6",
+      "request": "launch",
+      "mainClass": "java6",
+      "projectName": "practice_ca2cfeb4"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/practice",
+      "program": "d:/practice/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
